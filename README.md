@@ -1,7 +1,11 @@
-thoughtbot dotfiles
-===================
+Personal Dotfiles
+-----------------
 
-![prompt](http://images.thoughtbot.com/thoughtbot-dotfiles-prompt.png)
+I use [thoughtbot/dotfiles](https://github.com/thoughtbot/dotfiles) and
+paulghaddad/dotfiles together using [the `*.local` convention][dot-local].
+
+[dot-local]:
+http://robots.thoughtbot.com/manage-team-and-personal-dotfiles-together-with-rcm
 
 Requirements
 ------------
@@ -244,19 +248,3 @@ License
 dotfiles is copyright © 2009-2018 thoughtbot. It is free software, and may be
 redistributed under the terms specified in the [`LICENSE`] file.
 
-[`LICENSE`]: /LICENSE
-
-About thoughtbot
-----------------
-
-![thoughtbot](http://presskit.thoughtbot.com/images/thoughtbot-logo-for-readmes.svg)
-
-dotfiles is maintained and funded by thoughtbot, inc.
-The names and logos for thoughtbot are trademarks of thoughtbot, inc.
-
-We love open source software!
-See [our other projects][community].
-We are [available for hire][hire].
-
-[community]: https://thoughtbot.com/community?utm_source=github
-[hire]: https://thoughtbot.com/hire-us?utm_source=github

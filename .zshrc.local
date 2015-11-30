@@ -1,0 +1,19 @@
+export GREP_OPTIONS="--color=auto"
+export PATH="/usr/local/bin:/Users/phaddad/src/rubinius-2.2.10/bin:/usr/local/heroku/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/Users/phaddad/dotfiles/bin"
+
+source /usr/local/opt/chruby/share/chruby/chruby.sh
+source /usr/local/opt/chruby/share/chruby/auto.sh
+
+# Auto-attach New Shell Sessions
+_not_inside_tmux() { [[ -z "$TMUX" ]] }
+
+ensure_tmux_is_running() {
+  if _not_inside_tmux; then
+    tat
+  fi
+}
+
+ensure_tmux_is_running
+
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
