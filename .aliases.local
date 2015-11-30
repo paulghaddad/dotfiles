@@ -1,0 +1,7 @@
+# For Cnuapp
+alias rdb='cd /export/web/cnuapp && bin/cnurake db:rebuild name=cnuapp_dev cl=US'
+alias stop_litespeed='sudo sv stop /var/service/lsws'
+alias restart_litespeed='sudo sv restart /var/service/lsws'
+alias stop_psql='sudo /etc/init.d/postgresql stop'
+alias start_psql='sudo /etc/init.d/postgresql start'
+alias restart_psql='stop_psql && start_psql'
