@@ -1,0 +1,6 @@
+[user]
+  name = Paul Haddad
+  email = paulh16@gmail.com
+[alias]
+  tree = log --graph --oneline --decorate --all
+  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
