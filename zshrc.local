@@ -1,5 +1,5 @@
 export GREP_OPTIONS="--color=auto"
-export PATH="/usr/local/bin:/Users/phaddad/src/rubinius-2.2.10/bin:/usr/local/heroku/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/Users/phaddad/thoughtbot/dotfiles/bin"
+export PATH="/usr/local/bin:/usr/local/heroku/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:$HOME/thoughtbot/dotfiles/bin"
 
 source /usr/local/opt/chruby/share/chruby/chruby.sh
 source /usr/local/opt/chruby/share/chruby/auto.sh
