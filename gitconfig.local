@@ -4,3 +4,10 @@
 [alias]
   tree = log --graph --oneline --decorate --all
   hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+[gitsh]
+  noGreeting = true
+  defaultCommand = status --short --branch && :echo
+[gitsh "color"]
+  default = cyan
+  untracked = yellow
+  modified = red
