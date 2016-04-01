@@ -37,7 +37,7 @@ bind c new-window -c '#{pane_current_path}'
 bind-key b break-pane -d
 
 # Choose tree
-bind-key C-j choose-tree
+bind-key C-t choose-tree
 
 # Setup 'v' to begin selection as in Vim
 bind-key -t vi-copy v begin-selection
