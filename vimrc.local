@@ -20,3 +20,9 @@ nmap <leader>so :source $MYVIMRC<cr>
 " Rapidly exit insert mode
 imap jk <esc>
 imap kj <esc>
+
+" Set highlight search by default
+set hlsearch
+
+" Toggle highlight search
+nnoremap <leader>nh :nohlsearch<cr>
