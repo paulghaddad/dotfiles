@@ -14,6 +14,3 @@ ensure_tmux_is_running() {
 }
 
 ensure_tmux_is_running
-
-export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh
