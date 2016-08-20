@@ -1,3 +1,4 @@
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'christoomey/vim-tmux-runner'
 Plug 'wavded/vim-stylus'
+Plug 'tpope/vim-eunuch'
