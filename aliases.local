@@ -2,3 +2,4 @@
 alias be='bundle exec'
 alias bes='bundle exec rspec'
 alias rs='bundle exec rails server'
+alias b='bundle install'
