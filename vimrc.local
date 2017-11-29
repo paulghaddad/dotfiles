@@ -41,3 +41,9 @@ set ignorecase
 
 " But use smartcase searching if I search with a capital word
 set smartcase
+
+" Dynamic window sizing when splitting and focusing
+set winwidth=84
+set winheight=5
+set winminheight=5
+set winheight=999
