@@ -1,9 +1,7 @@
 export GREP_OPTIONS="--color=auto"
 export PATH="/usr/local/bin:/usr/local/heroku/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:$HOME/thoughtbot/dotfiles/bin:/usr/local/go/bin"
 export GOPATH=$HOME/work
-
-source /usr/local/opt/chruby/share/chruby/chruby.sh
-source /usr/local/opt/chruby/share/chruby/auto.sh
+export PATH="$HOME/.bin:$PATH"
 
 # Auto-attach New Shell Sessions
 _not_inside_tmux() { [[ -z "$TMUX" ]] }
