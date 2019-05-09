@@ -67,3 +67,6 @@ let g:ale_lint_on_enter = 0 " Less distracting when opening a new file
 
 " Set colorscheme
 colorscheme default
+
+" Disable syntax highlighting for errors
+let g:ale_set_highlights = 0
