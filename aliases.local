@@ -1,6 +1,10 @@
 # Shell
 alias cl='clear'
 
+# Docker
+alias dc='docker-compose'
+alias d='docker'
+
 # Ruby/Rails
 alias be='bundle exec'
 alias bes='bundle exec rspec'

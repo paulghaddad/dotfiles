@@ -2,6 +2,7 @@ export GREP_OPTIONS="--color=auto"
 export PATH="/usr/local/bin:/usr/local/heroku/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:$HOME/thoughtbot/dotfiles/bin:/usr/local/go/bin"
 export GOPATH=$HOME/work
 export PATH="$HOME/.bin:$PATH"
+export NODE_ENV="development"
 
 # Source in Ruby versions
 # source /usr/local/opt/chruby/share/chruby/chruby.sh
