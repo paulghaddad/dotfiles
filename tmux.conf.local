@@ -13,6 +13,8 @@ set-option -g default-terminal "screen-256color"
 # This option changes the mode for command prompts
 set-option -g status-keys "emacs"
 
+# Windows
+
 # Key bindings to move between tmux and Vim windows
 # -n flag allows us to run the command without needing to first use the prefix # key
 is_vim='echo "#{pane_current_command}" | grep -iqE "(^|\/)g?(view|n?vim?)(diff)?$"'
@@ -21,12 +23,18 @@ bind -n C-j if-shell "$is_vim" "send-keys C-j" "select-pane -D"
 bind -n C-k if-shell "$is_vim" "send-keys C-k" "select-pane -U"
 bind -n C-l if-shell "$is_vim" "send-keys C-l" "select-pane -R"
 
-# navigate to the last window
+# navigate to the last eindow
 bind -n C-\ if-shell "$is_vim" "send-keys C-\\" "select-pane -l"
 
 # Split window horizontally and vertically
+# and preserve the current path you're in with -c flag
 bind-key - split-window -v  -c '#{pane_current_path}'
 bind-key \ split-window -h  -c '#{pane_current_path}'
+
+# Open new windows in the current directory
+bind c new-window -c '#{pane_current_path}'
+
+# Panes
 
 # Resize panes in small increments
 bind -n S-Left resize-pane -L 2
@@ -40,10 +48,7 @@ bind -n C-Right resize-pane -R 10
 bind -n C-Down resize-pane -D 5
 bind -n C-Up resize-pane -U 5
 
-# Open new windows in the current directory
-bind c new-window -c '#{pane_current_path}'
-
-# Break pane
+# Break pane to a new window
 bind-key b break-pane -d
 
 # Choose tree
