@@ -86,3 +86,6 @@ bind-key K run-shell 'tmux switch-client -n \; kill-session -t "$(tmux display-m
 
 # Add gitsh quick pane
 bind-key g split-window -h -c '#{pane_current_path}' -p 50 gitsh
+
+# Make native scrollbar work in tmux
+set-option -g mouse off
