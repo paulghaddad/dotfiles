@@ -5,8 +5,8 @@ export PATH="$HOME/.bin:$PATH"
 export NODE_ENV="development"
 
 # Source in Ruby versions
-source /usr/local/opt/chruby/share/chruby/chruby.sh
-# source /usr/local/opt/chruby/share/chruby/auto.sh
+source /usr/local/share/chruby/chruby.sh
+source /usr/local/share/chruby/auto.sh
 
 # Auto-attach New Shell Sessions
 _not_inside_tmux() { [[ -z "$TMUX" ]] }
