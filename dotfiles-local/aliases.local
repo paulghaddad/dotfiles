@@ -1,5 +1,6 @@
 # Shell
-alias cl='clear'
+alias l='clear'
+alias p='pwd'
 
 # Docker
 alias dc='docker-compose'
@@ -11,5 +12,9 @@ alias bes='bundle exec rspec'
 alias rs='bundle exec rails server'
 alias b='bundle install'
 
-# Programs
+# Multipass
 alias mp='multipass'
+
+# Exercism
+alias ed='exercism download'
+alias es='exercism submit'
